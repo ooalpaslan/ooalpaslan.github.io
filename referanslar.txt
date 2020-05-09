@@ -1,0 +1,99 @@
+                <div id="referanslar" class="section">
+                    <div class="wrapper">
+                        <div class="section-title">
+                            Referanslarım
+                        </div>
+                        <ul class="referencesList">
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 1"
+                                        data-src="uploads/referans-1.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 2"
+                                        data-src="uploads/referans-2.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 3"
+                                        data-src="uploads/referans-3.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 4"
+                                        data-src="uploads/referans-4.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 5"
+                                        data-src="uploads/referans-5.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 6"
+                                        data-src="uploads/referans-6.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 7"
+                                        data-src="uploads/referans-7.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 8"
+                                        data-src="uploads/referans-8.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 9"
+                                        data-src="uploads/referans-9.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 10"
+                                        data-src="uploads/referans-10.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 11"
+                                        data-src="uploads/referans-11.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 12"
+                                        data-src="uploads/referans-12.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 13"
+                                        data-src="uploads/referans-13.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 14"
+                                        data-src="uploads/referans-14.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap">
+                                    <img class="lazy" src="img/spacer.gif" alt="Reference 15"
+                                        data-src="uploads/referans-15.png" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>

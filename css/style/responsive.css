@@ -1,0 +1,80 @@
+@media screen and (max-width: 1400px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .wrapper.padding0 {
+        padding: 0 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .header {
+        left: -250px;
+        width: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+        -webkit-transition: left 0.5s ease;
+        -moz-transition: left 0.5s ease;
+        -o-transition: left 0.5s ease;
+        transition: left 0.5s ease;
+    }
+    .main {
+        margin-left: 0;
+        -webkit-transition: margin 0.5s ease;
+        -moz-transition: margin 0.5s ease;
+        -o-transition: margin 0.5s ease;
+        transition: margin 0.5s ease;
+    }
+    body.open .header {
+        left: 0;
+    }
+    body.open .main {
+        margin-left: 250px;
+    }
+    .menuBtn {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    ul.infoList li, ul.referencesList li {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-text::before {
+        left: 50%;
+        right: 50%;
+        top: -10px;
+        border-top: none;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #FFF;
+        -webkit-transform: translateX(-7.5px);
+        transform: translateX(-7.5px);
+    }
+    ul.timeline li {
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    ul.referencesList li {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul.infoList li {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
