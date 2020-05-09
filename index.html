@@ -30,8 +30,11 @@
     <meta property="og:site_name" content="Ömer Onur Alpaslan | Personal Web Page" />
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- GOOGLE FONT -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap&subset=latin-ext"
         rel="stylesheet">
+        
         <!-- CSS -->
     <link rel="stylesheet" href="css/style/reset.css">
     <link rel="stylesheet" href="css/fa/font-awesome.css">
@@ -41,6 +44,7 @@
     <link rel="stylesheet" href="css/animate/animate.css">
     <link rel="stylesheet" href="css/style/style.css">
     <link rel="stylesheet" href="css/style/responsive.css">
+    <link rel="stylesheet" href="css/style/backtotop.css">
 </head>
 
 <body data-spy="scroll" data-target="#navMenu">
@@ -350,11 +354,13 @@
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 form-group">
                                 <input type="email" name="contactemail" placeholder="E-mail" autocomplete="off"
                                     required />
+                                    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 form-group">
                                 <input type="text" name="contactphone" placeholder="Phone"
                                     autocomplete="off" required />
+                                    <small id="phoneHelp" class="form-text text-muted">I'll never share your phone with anyone else.</small>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 form-group">
@@ -366,6 +372,7 @@
                                 <button type="submit" name="contactBtn" class="submitBtn">Send</button>
                             </div>
                         </form>
+                        <a id="button"></a>
                     </div>
                 </div>
             </div>
@@ -385,6 +392,7 @@
     <script src="js/validator.js"></script>
     <script src="js/jquery.form.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/backtoptop.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163407278-1"></script>
     <script>
@@ -394,6 +402,7 @@
 
         gtag('config', 'UA-163407278-1');
     </script>
+   
 </body>
 
 </html>

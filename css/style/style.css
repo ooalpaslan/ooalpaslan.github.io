@@ -613,6 +613,7 @@ body {
     display: none;
     position: absolute;
     background: none;
+    
     outline: 1;
     border: 0;
   }
@@ -644,6 +645,7 @@ body {
   
   .menuBtn .icon::after {
     top: 10px;
+    
   }
   
   .section {
