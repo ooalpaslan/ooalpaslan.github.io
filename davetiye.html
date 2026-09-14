@@ -542,12 +542,11 @@ const WEDDING = {
 ============================================================= */
 
 (function populate(){
-  document.title = WEDDING.gelin + ' & ' + WEDDING.damat + ' — Düğün Davetiyesi';
+  document.title = WEDDING.gelin + ' & ' + WEDDING.damat + ' — 27.09.2026';
 
   ['h-bride','c-bride'].forEach(id => document.getElementById(id).textContent = WEDDING.gelin);
   ['h-groom','c-groom'].forEach(id => document.getElementById(id).textContent = WEDDING.damat);
-  document.getElementById('e-bride').textContent = WEDDING.gelin;
-  document.getElementById('e-groom').textContent = WEDDING.damat;
+
 
   document.getElementById('h-tagline').textContent = WEDDING.tagline;
   document.getElementById('e-tagline').textContent = WEDDING.tagline;
